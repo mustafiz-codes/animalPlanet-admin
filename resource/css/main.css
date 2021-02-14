@@ -91,7 +91,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 
 .navbar{
     
-    background: linear-gradient(to right, gold, #f4bf42) !important;
+    background: linear-gradient(to right, rgb(0, 162, 255), #64e7e7) !important;
 /*    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);*/
     
 }
@@ -187,7 +187,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 }
 
 .sidebar .nav-item .nav-link {
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
 }
 
 .sidebar .nav-item .nav-link:active, .sidebar .nav-item .nav-link:focus, .sidebar .nav-item .nav-link:hover {
@@ -269,10 +269,10 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 }
 
 .breadcrumb li a {
-    color: goldenrod;
+    color: rgb(89, 216, 255)enrod;
 }
 .breadcrumb li a:hover {
-    color: gold;
+    color: rgb(89, 216, 255);
 }
 
 .card{
@@ -398,24 +398,24 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 /* sidebar */
 
 .sidebar li i {
-    color: gold; 
+    color: rgb(89, 216, 255); 
 }
 
 .sidebar .active .nav-link span {
-    color: gold;
+    color: rgb(89, 216, 255);
 }
 
 .sidebar .nav-item .dropdown-menu .active{
-    color: gold;
+    color: rgb(89, 216, 255);
     background: none;
 }
 .sidebar .nav-item .dropdown-menu a:active{
-    color: goldenrod;
+    color: rgb(89, 216, 255)enrod;
     background: none;
 }
 
 .sidebar .nav-item .dropdown-menu a:hover{
-    color: gold;
+    color: rgb(89, 216, 255);
     background: none;
 }
 
@@ -615,7 +615,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
   background-color: white;
   text-decoration: none;
     font-size: 2em;
-    color: gold;
+    color: rgb(89, 216, 255);
 }
 .responsive-calendar .day.header {
   border-bottom: 1px gray solid;
@@ -849,7 +849,7 @@ ul.timeline > li:before {
     color: #FB1C1C;
 }
 .down{
-    color: gold;
+    color: rgb(89, 216, 255);
 }
 .refresh{
     color: darkgreen;
@@ -911,8 +911,8 @@ ul.timeline > li:before {
 }
 .addAdmitForm .btn-success{
     
-    background: gold;
-    border: 1px solid gold;
+    background: rgb(89, 216, 255);
+    border: 1px solid rgb(89, 216, 255);
 }
 .addAdmitForm .btn-danger{
     
@@ -969,8 +969,8 @@ ul.timeline > li:before {
     color: black;
 }
 .newSubject .btn-success{
-    background: gold;
-    border: 1px solid gold;
+    background: rgb(89, 216, 255);
+    border: 1px solid rgb(89, 216, 255);
 }
 .newSubject .btn-danger{
     background: #042759;
@@ -987,8 +987,8 @@ ul.timeline > li:before {
 
 
 .studentAttendance .btn-success{
-    background: gold;
-    border: 1px solid gold;
+    background: rgb(89, 216, 255);
+    border: 1px solid rgb(89, 216, 255);
 }
 .studentAttendance .btn-danger{
     background: #042759;
@@ -1078,6 +1078,68 @@ ul.timeline > li:before {
 
 .progress{
     margin-bottom: 2%;
+}
+
+
+/* view post */
+
+
+/* question post */
+.question-post {
+  border-bottom: 1px solid #044f61;
+  padding-bottom: 20px;
+}
+
+.question-posted {
+  display: flex;
+  margin: 20px 0 0;
+}
+.question-posted-time,
+.question-posted-date {
+  margin-right: 20px;
+  color: #044f61;
+  font-weight: 700;
+}
+.question-title {
+  color: #044f61;
+  font-weight: 600;
+}
+.question-description {
+  color: #707070;
+}
+
+.question-images {
+  display: flex;
+}
+.question-images img {
+  width: 200px;
+  height: 150px;
+  margin-right: 10px;
+  border: 1px solid #ffb548;
+}
+.single-comment{
+  padding: 0 0 20px;
+}
+.comment{
+  border: 1px solid #044f61;
+  padding: 10px;
+  border-radius: 5px;
+}
+.comment-posted{
+  display: flex;
+}
+.comment-posted-time, .comment-posted-date{
+  margin: 0 20px 5px 0;
+  color: #044f61;
+}
+.comment-reply{
+  padding-left: 20px;
+  margin: 5px 0;
+}
+.comment-pro-pic{
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
 }
 
 /* footer */
