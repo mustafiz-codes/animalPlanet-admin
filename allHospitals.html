@@ -139,33 +139,39 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="parents.html">
+          <a class="nav-link" href="allDoctors.html">
             <i class="fas fa-fw fa-table"></i>
             <span>All Doctors</span>
           </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="parents.html">
+          <a class="nav-link" href="addDoctor.html">
             <i class="fas fa-fw fa-table"></i>
             <span>Add Doctor</span>
           </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="parents.html">
+          <a class="nav-link" href="./allHospitals.html">
             <i class="fas fa-fw fa-table"></i>
             <span>All Hospital</span>
           </a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="parents.html">
+          <a class="nav-link" href="addHospitals.html">
             <i class="fas fa-fw fa-table"></i>
             <span>Add Hospital</span>
           </a>
         </li>
 
+        <li class="nav-item">
+          <a class="nav-link" href="allPosts.html">
+            <i class="fas fa-fw fa-table"></i>
+            <span>All Post</span>
+          </a>
+        </li>
       </ul>
 
       <!-- /.content-wrapper -->
@@ -177,117 +183,81 @@
             <li class="breadcrumb-item">
               <a href="">Dashboard</a>
             </li>
-            <li class="breadcrumb-item active">Post</li>
+            <li class="breadcrumb-item active">Admin</li>
           </ol>
 
-          <!-- view post -->
-          <div class="row">
+          <!-- DataTables Example -->
+          <div class="container-fluid">
+            <div class="row">
+              <h2>All Hospitals</h2>
 
-    <div class="question-post">
-        <div class="container">
-          <h2 class="question-title">
-            Lorem ipsum, dolor sit amet consectetur adipisicing.
-          </h2>
-          <div class="question-posted">
-            <p class="question-posted-time">10:37 pm</p>
-            <p class="question-posted-date">11.1.2021</p>
-            <p>Posted by - Mr. Ask</p>
-          </div>
-          <p class="question-description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Exercitationem aliquam quam, tenetur mollitia placeat soluta porro,
-            deserunt cumque autem nam accusantium sit eaque incidunt debitis, iste
-            aperiam neque. Velit assumenda explicabo cupiditate rerum corrupti
-            itaque tempora maxime recusandae obcaecati sequi? Nostrum doloremque a
-            eius excepturi similique, atque dolorum illo, facilis architecto
-            mollitia, rerum necessitatibus quibusdam corporis veritatis earum
-            aspernatur sapiente facere recusandae dolor vero nulla neque possimus?
-            Minima accusamus aperiam tempore facilis aliquid veritatis consequatur
-            repellat delectus, nobis libero porro voluptate provident impedit id
-            obcaecati voluptatum a non numquam ab quam explicabo quae ipsum
-            cumque? Voluptatibus aut temporibus deleniti perferendis?
-          </p>
-          <div class="question-images">
-            <div type="button" data-toggle="modal" data-target="#exampleModal">
-              <img src="./resource/img/pet1.jpg" alt="" />
-            </div>
-            <div type="button" data-toggle="modal" data-target="#exampleModal">
-              <img src="./resource/img/pet2.jpg" alt="" />
-            </div>
-            <div type="button" data-toggle="modal" data-target="#exampleModal">
-              <img src="./resource/img/pet3.jpg" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      <div class="question-comments">
-        <div class="container">
-          <h2>Comments</h2>
-  
-          <div class="single-comment">
-            <div class="comment">
-              <div class="row">
-                <div class="col-md-1">
-                  <img
-                    class="comment-pro-pic"
-                    src="./resource/img/doc-2.png"
-                    alt=""
-                  />
-                </div>
-                <div class="col-md-11">
-                  <div class="comment-posted">
-                    <p class="comment-posted-time">10:37 pm</p>
-                    <p class="comment-posted-date">11.1.2021</p>
-                    <p>Commented by - Mr. Asnwer</p>
-                  </div>
-                  <p class="comment-body">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Sapiente suscipit minus dolores optio a sint eius perferendis?
-                    Atque laudantium, eius labore id fugiat suscipit, dolorum,
-                    alias quae adipisci explicabo beatae.
-                  </p>
-                  <div class="new-reply">
-                    <form>
-                      <div class="form-group">
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="reply here"></textarea>
-                      <button type="submit" class="btn btn-success">
-                        Reply 
-                      </button>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="comment-reply">
-              <div class="comment">
-                <div class="row">
-                  <div class="col-md-1">
-                    <img
-                      class="comment-pro-pic"
-                      src="./resource/img/doc-1.png"
-                      alt=""
-                    />
-                  </div>
-                  <div class="col-md-11">
-                    <div class="comment-posted">
-                      <p class="comment-posted-time">10:37 pm</p>
-                      <p class="comment-posted-date">11.1.2021</p>
-                      <p>Commented by - Mr. Asnwer</p>
-                    </div>
-                    <p class="comment-body">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Sapiente suscipit minus dolores optio a sint eius
-                      perferendis? Atque laudantium, eius labore id fugiat
-                      suscipit, dolorum, alias quae adipisci explicabo beatae.
-                    </p>
-                  </div>
-                </div>
+              <div class="table-responsive">
+                <table class="table table-light">
+                  <thead class="text-center">
+                    <tr>
+                      <th scope="col">Id</th>
+                      <th scope="col">Name</th>
+                      <th scope="col">Contact</th>
+                      <th scope="col">Address</th>
+                      <th scope="col">Edit</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th>1</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>Thornton</td>
+                      <td>
+                        <a href="#"><i class="far fa-eye eye"></i></a>&nbsp;
+                        <a href="#"><i class="fas fa-sync-alt refresh"></i></a
+                        >&nbsp;
+                        <a href="#"><i class="fas fa-times delete"></i></a
+                        >&nbsp;
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>1</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>Thornton</td>
+                      <td>
+                        <a href="#"><i class="far fa-eye eye"></i></a>&nbsp;
+                        <a href="#"><i class="fas fa-sync-alt refresh"></i></a
+                        >&nbsp;
+                        <a href="#"><i class="fas fa-times delete"></i></a
+                        >&nbsp;
+                      </td>
+                    </tr>
+                    <tr>
+                      <th>1</th>
+                      <td>Jacob</td>
+                      <td>Thornton</td>
+                      <td>Thornton</td>
+                      <td>
+                        <a href="#"><i class="far fa-eye eye"></i></a>&nbsp;
+                        <a href="#"><i class="fas fa-sync-alt refresh"></i></a
+                        >&nbsp;
+                        <a href="#"><i class="fas fa-times delete"></i></a
+                        >&nbsp;
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>
-        </div>
-      </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <div class="footer">
+                <p>&copy; <a href="#">Woofs&Paws </a> | 2021</p>
+                <p>
+                  Contact information:
+                  <a href="mailto:someone@example.com">someone@example.com</a>.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
