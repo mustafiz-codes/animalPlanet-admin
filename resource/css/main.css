@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - SB Admin v5.0.2 (https://startbootstrap.com/template-overviews/sb-admin)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-sb-admin/blob/master/LICENSE)
  */
 
@@ -391,7 +391,7 @@ body.fixed-nav.sidebar-toggled #content-wrapper {
 }
 
 #content-wrapper{
-    background-color: #e3e3e3;
+    background-color: #f5f5f5;
 }
 
 

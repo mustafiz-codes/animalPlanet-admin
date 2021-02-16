@@ -1810,7 +1810,7 @@ a.text-light:hover, a.text-light:focus {
  * Waves v0.7.6
  * http://fian.my.id/Waves
  *
- * Copyright 2014-2018 Alfiana E. Sibuea and other contributors
+ * Copyright 2014-2021 Alfiana E. Sibuea and other contributors
  * Released under the MIT license
  * https://github.com/fians/Waves/blob/master/LICENSE */
 .waves-effect {
@@ -1939,7 +1939,7 @@ a.waves-effect, a.waves-light {
  * Version - 3.7.0
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
  *
- * Copyright (c) 2018 Daniel Eden
+ * Copyright (c) 2021 Daniel Eden
  */
 .animated {
   -webkit-animation-duration: 1s;
@@ -2198,7 +2198,7 @@ a.waves-effect, a.waves-light {
  * Version - 3.7.0
  * Licensed under the MIT license - http://opensource.org/licenses/MIT
  *
- * Copyright (c) 2018 Daniel Eden
+ * Copyright (c) 2021 Daniel Eden
  */
 @-webkit-keyframes bounce {
   from,
